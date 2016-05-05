@@ -51,7 +51,7 @@ STATIC=1
 DEPSDIR=/usr/local
 
 # ubuntu puts boost libs at /usr/lib/x86_64-linux-gnu
-LIB_BOOST="/usr/lib/x86_64-linux-gnu"
+LIB_BOOST="/usr/lib"
 
 # this combo works for mint and ubuntu
 INCLUDEPATHS= \
@@ -102,7 +102,7 @@ LIBS += \
  $(DEPSDIR)/ssl/lib/libcrypto.a \
  $(DEPSDIR)/lib/libz.a \
  $(DEPSDIR)/lib/libevent.a \
- /usr/lib/libcryptopp.a \
+ /usr/local/lib/libcryptopp.a \
  $(CURDIR)/leveldb/libleveldb.a \
  $(CURDIR)/leveldb/libmemenv.a
 else
