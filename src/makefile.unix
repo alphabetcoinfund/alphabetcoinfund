@@ -48,7 +48,7 @@
 # Build STATIC for this makefile (1=static, 0=not)
 STATIC=1
 
-DEPSDIR=/usr/local/x86_64-linux-gnu/
+DEPSDIR=/usr/lib/x86_64-linux-gnu/
 
 # ubuntu puts boost libs at /usr/lib/x86_64-linux-gnu
 LIB_BOOST="/usr/lib/x86_64-linux-gnu/"
