@@ -93,7 +93,7 @@ ifeq ($(STATIC),1)
 TESTLIBS += \
  $(DEPSDIR)/lib/libboost_unit_test_framework.a
 LIBS += \
- $(DEPSDIR)/BerkeleyDB.5.3/lib/libdb_cxx-5.3.a \
+ /usr/lib/x86_64-linux-gnu/libdb_cxx.a \
  $(LIB_BOOST)/libboost_system.a \
  $(LIB_BOOST)/libboost_filesystem.a \
  $(LIB_BOOST)/libboost_program_options.a \
