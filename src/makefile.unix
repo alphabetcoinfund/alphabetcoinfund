@@ -102,7 +102,7 @@ LIBS += \
  $(DEPSDIR)/libcrypto.a \
  $(DEPSDIR)/libz.a \
  $(DEPSDIR)/libevent.a \
- /usr/local/x86_64-linux-gnu/libcryptopp.a \
+ /usr/lib/x86_64-linux-gnu/libcryptopp.a \
  $(CURDIR)/leveldb/libleveldb.a \
  $(CURDIR)/leveldb/libmemenv.a
 else
