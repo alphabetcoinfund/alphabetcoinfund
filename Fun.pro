@@ -704,7 +704,7 @@ win32:LIBS += -L"C:/$$MSYS/local/lib"
 win32:LIBS += -L"C:/$$MSYS/lib"
 #win32:LIBS += -L"C:/$$MSYS/local/ssl/lib"
 
-LIBS +=  -lcryptopp -lssl -levent -lz -lcrypto -lcrypt32
+LIBS +=  -lcryptopp -lssl -levent -lz -lcrypto #-lcrypt32
 
 win32 {
   contains(WINBITS, 32) {
